@@ -1,5 +1,4 @@
-import { Pressable, View, Text, 
-    StyleSheet, Platform } from 'react-native';
+import { Pressable, View, Text, StyleSheet, Platform } from 'react-native';
 
 function CategoryGridTile({ title, color, onPress }) {
   return (
@@ -25,11 +24,11 @@ export default CategoryGridTile;
 const styles = StyleSheet.create({
   gridItem: {
     flex: 1,
-    margin: 16,
+    margin: 8,
     height: 150,
     borderRadius: 8,
     elevation: 4,
-    backgroundColor: '#24180f',
+    backgroundColor: 'white',
     shadowColor: 'black',
     shadowOpacity: 0.25,
     shadowOffset: { width: 0, height: 2 },
@@ -44,7 +43,7 @@ const styles = StyleSheet.create({
   },
   innerContainer: {
     flex: 1,
-    padding: 16,
+    padding: 12,
     borderRadius: 8,
     justifyContent: 'center',
     alignItems: 'center',
